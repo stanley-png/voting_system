@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #0066cc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#voting-section,
+#admin-section,
+#dashboard-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.candidate {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.candidate img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.success {
+    color: #008000;
+}
+
+/* Add more styles as needed */
